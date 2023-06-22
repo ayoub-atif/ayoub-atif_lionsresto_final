@@ -1,0 +1,147 @@
+.home{
+    padding:2rem 6%;
+    background-color: #eeee;
+    
+    
+    
+}
+
+.home .home-slider .slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10rem;
+    padding-top:6rem;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.home .home-slider .slide .image{
+    flex:1;
+}
+.home .home-slider .slide .image img{
+   width: 500px;
+}
+.home .home-slider .slide .content span{
+    color: black;
+    font-size: 4rem;
+    font-family: amatico;
+
+}
+.home .home-slider .slide .content p{
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background-color: #ea1538;
+    letter-spacing: .1rem;
+}
+.btn2{
+    align-items: center;
+    display: inline-block;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+   color: black;
+    
+}
+.btns{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+i{
+    color: red;
+}
+.btn{
+    
+    display: inline-block;
+    font-size: 1rem;
+    color: white;
+    background-color: #ea1538;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+// *responsiveee home tablette/////
+@media (min-width:426px) and (max-width: 769px) {
+
+    
+    .home .home-slider .slide .image img{
+      align-items: center;
+      width: 400px;
+      
+     
+     
+        
+    
+    }
+    .home .home-slider .slide .image{
+        flex:1 1 35rem;
+    }
+    
+    .btn{
+        font-size: 20px;
+    }
+    .btn2{
+        font-size: 20px;
+       
+        
+    }
+    .home .home-slider .slide .content{
+        font-size: 40px;
+        text-align: center;
+        align-items: center;
+        
+       
+    }
+    .home .home-slider .slide{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+       
+        gap: 0;
+    }
+
+  }
+// *responsiveee home phone/////
+@media (min-width:375px) and (max-width: 426px){
+    
+    .home .home-slider .slide .image img{
+        align-items: center;
+        width: 100%;
+
+
+}
+
+
+
+
+.btn{
+    font-size: 20px;
+}
+.btn2{
+    font-size: 20px;
+   
+    
+}
+.home .home-slider .slide .content{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    
+    
+   
+}
+.home .home-slider .slide{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    
+}
+}

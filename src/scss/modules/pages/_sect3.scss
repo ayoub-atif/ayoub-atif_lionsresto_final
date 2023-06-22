@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    
+  }
+  .section3{
+    background-color: #eeee;
+    
+  }
+  .cards{
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    
+  }
+  .cards h2.he{
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .services{
+    display: flex;
+    align-items: center;
+    
+  }
+  .tableau{
+    background-color: #ff0000;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    
+  }
+  div i{
+    
+    font-size: 18px;
+    
+}
+  .tableau-2{
+    background-color: white;
+    
+    
+  }
+  .tableau-3{
+    background-color: white;
+  }
+  .tableau-1{
+    color: white;
+    
+    
+  }
+  .tableau-1 a{
+    font-family: 10px;
+}
+.tableau-4{
+    background-color: white;
+}
+
+  
+  .tableau > *{
+    flex: 1 1 100%;
+  }
+  .content:hover{
+    color: white;
+  }
+  .tableau:hover a{
+    border-color: white;
+    background: rgb(166, 37, 37);
+  }
+  .tableau:hover{
+    transform: scale(1.1);
+  }
+ 
+  .tableau h2{
+    font-size: 30px;
+    
+    letter-spacing: 1px;
+   
+  }
+  .tableau p{
+    font-size: 17px;
+    font-family: 'Poppins',sans-serif;
+  }
+  .tableau a{
+    margin: 22px 0;
+    background: rgb(158, 48, 48);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgb(151, 40, 40);
+    padding: 15px 0;
+    border-radius: 25px;
+    transition: .3s ease;
+    
+  }
+  .tbleau a:hover{
+    border-radius: 4px;
+  }
+  @media (max-width: 900px) {
+    .services{
+      display: flex;
+      flex-direction: column;
+    }
+  }
