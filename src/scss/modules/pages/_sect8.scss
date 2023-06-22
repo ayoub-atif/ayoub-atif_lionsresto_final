@@ -1,0 +1,53 @@
+.sect8{
+    width: 100%;
+    padding-top: 5%;
+    background-color: #ccc;
+}
+.table h4{
+    font-family: roboto;
+}
+.table h1{
+    font-family:  amatico;
+}
+.table span{
+    color: red;
+}
+.table{
+    text-align: center;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="time"],
+  input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+input[type="submit"]:hover {
+    background-color: #45a049;
+  }

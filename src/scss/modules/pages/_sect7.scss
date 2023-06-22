@@ -1,0 +1,24 @@
+.sect7{
+background-color:#eeee ;
+height: 750px;
+}
+.sect7 h1{
+    font-family: amatico;
+}
+.sect7 span{
+    color: red;
+}
+.sect7 h4{
+    font-family: roboto;
+}
+.chefs{
+    text-align: center;
+}
+.chef-cards{
+    display: flex;
+    justify-content: space-around;
+}
+@media (min-width:426px) and (max-width: 769px) {
+    
+}
+

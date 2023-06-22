@@ -1,0 +1,35 @@
+.slider .carousel{
+    
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.carousel img{
+    height: 600px;
+    object-fit: cover;
+    width: calc(100%/3);
+    width: 30%;
+}
+.buttons{
+    text-align: center;
+}
+.carousel{
+    transition: 2s;
+}
+
+.manual-btn{
+    margin-right:40px;
+
+}
+.events{
+    text-align: center;
+}
+.events h3{
+    font-family: roboto;
+}
+.events h1{
+    font-family:amatico ;
+}
+.events span{
+    color: red;
+}
