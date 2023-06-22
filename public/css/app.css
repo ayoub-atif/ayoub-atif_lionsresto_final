@@ -12212,6 +12212,10 @@ i {
   cursor: pointer;
 }
 
+.icon-video i {
+  font-size: 75px;
+}
+
 .restonumber h2, .restonumber .h2 {
   color: #ea1538;
   text-align: center;
@@ -12247,17 +12251,20 @@ i {
     justify-content: center;
     align-items: center;
   }
+  image-clip {
+    width: 65%;
+  }
   .imagep .image img {
     width: 100%;
     padding-left: 0;
-  }
-  .frst-video .image-clip img {
-    width: 100%;
   }
   .paragraphe {
     font-size: 12px;
     padding-top: 5%;
     text-align: center;
+  }
+  .image-clip {
+    width: 40%;
   }
   .restonumber {
     width: 100%;
@@ -12275,9 +12282,6 @@ i {
     font-size: 50px;
     padding-left: 0;
   }
-  .frst-video .image-clip img {
-    width: 100%;
-  }
   .paragraphe {
     font-size: 12px;
     padding-top: 5%;
@@ -12294,119 +12298,76 @@ i {
     position: absolute;
     font-size: 50px;
   }
+  .image-clip {
+    width: 65%;
+  }
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-}
-
-.section3 {
-  background-color: rgba(238, 238, 238, 0.9333333333);
-}
-
-.cards {
-  max-width: 1400px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 30px;
+.cntr_sect3 {
+  padding-left: 4%;
+  background-color: var(--color-grey);
+  padding-right: 4%;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
-.cards h2.he, .cards .he.h2 {
-  font-size: 40px;
-  margin: 0 0 30px 0;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+.card:hover {
+  transform: scale(1.1);
+  transition: 1s all ease;
 }
 
-.services {
+@media (min-width: 426px) and (max-width: 769px) {
+  .cntr_sect3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 426px) {
+  .cntr_sect3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.sect4 {
+  background-image: url(../../../../public/img/reservation.jpg);
+  max-width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
+  justify-content: space-between;
+}
+
+.sect4 .numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number1 h1, .number1 .h1 {
+  text-align: center;
+  font-family: roboto;
+  color: white;
+}
+
+.number1 h3, .number1 .h3 {
+  font-family: roboto;
+  color: gray;
+}
+
+.numbers .numbre .div {
+  text-align: center;
   align-items: center;
 }
 
-.tableau {
-  background-color: #ff0000;
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 4px;
+.fifth_section {
+  height: fit-content;
 }
-
-div i {
-  font-size: 18px;
-}
-
-.tableau-2 {
-  background-color: white;
-}
-
-.tableau-3 {
-  background-color: white;
-}
-
-.tableau-1 {
-  color: white;
-}
-
-.tableau-1 a {
-  font-family: 10px;
-}
-
-.tableau-4 {
-  background-color: white;
-}
-
-.tableau > * {
-  flex: 1 1 100%;
-}
-
-.content:hover {
-  color: white;
-}
-
-.tableau:hover a {
-  border-color: white;
-  background: rgb(166, 37, 37);
-}
-
-.tableau:hover {
-  transform: scale(1.1);
-}
-
-.tableau h2, .tableau .h2 {
-  font-size: 30px;
-  letter-spacing: 1px;
-}
-
-.tableau p {
-  font-size: 17px;
-  font-family: "Poppins", sans-serif;
-}
-
-.tableau a {
-  margin: 22px 0;
-  background: rgb(158, 48, 48);
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  border: 1px solid rgb(151, 40, 40);
-  padding: 15px 0;
-  border-radius: 25px;
-  transition: 0.3s ease;
-}
-
-.tbleau a:hover {
-  border-radius: 4px;
-}
-
-@media (max-width: 900px) {
-  .services {
-    display: flex;
-    flex-direction: column;
-  }
+.fifth_section .menuTitle h2, .fifth_section .menuTitle .h2 {
+  font-family: amatic-b;
 }
 
 /*# sourceMappingURL=app.css.map */

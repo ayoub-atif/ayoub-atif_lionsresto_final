@@ -1,0 +1,33 @@
+.sect4{
+    background-image: url(../../../../public/img/reservation.jpg);
+    max-width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sect4 .numbers{
+   display: flex;
+   justify-content: space-between;
+   
+   
+    
+    
+}
+.number1 h1{
+    text-align: center;
+    font-family: roboto;
+    color: white;
+    
+}
+.number1 h3{
+    font-family: roboto;
+    color: gray;
+}
+.numbers .numbre .div{
+    text-align: center;
+    align-items: center;
+}
