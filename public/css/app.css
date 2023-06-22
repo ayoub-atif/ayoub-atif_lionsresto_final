@@ -12501,62 +12501,349 @@ i {
 }
 
 .sect8 {
-  width: 100%;
-  padding-top: 5%;
-  background-color: #ccc;
+  width: 100vw;
+  height: 80vh;
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-
-.table h4, .table .h4 {
-  font-family: roboto;
+.sect8 .table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
-.table h1, .table .h1 {
+.sect8 .table .reserve {
+  color: #868184;
+  font-size: 38px;
+}
+.sect8 .table .bigtext {
   font-family: amatico;
+  font-size: 68px;
 }
-
-.table span {
-  color: red;
+.sect8 .table .bigtext span {
+  color: #cc1111;
 }
-
-.table {
-  text-align: center;
-}
-
-form {
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-label {
-  display: block;
-  margin-bottom: 10px;
-}
-
-input[type=text],
-input[type=date],
-input[type=time],
-input[type=number] {
+.sect8 .welcome {
   width: 100%;
-  padding: 5px;
-  font-size: 16px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
+  height: 50vh;
+  display: flex;
+  background-color: #f7f7f7;
+  gap: 30px;
 }
-
-input[type=submit] {
+.sect8 .welcome .imgsect8 {
+  width: 570px;
+  height: 490px;
+}
+.sect8 .welcome .imgsect8 img {
   width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
-  background-color: #4CAF50;
+  height: 100%;
+}
+.sect8 .welcome .formulaire {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 80%;
+  background-color: #f7f7f7;
+}
+.sect8 .welcome .formulaire .input1 {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sect8 .welcome .formulaire .input1 input {
+  border-radius: 1px;
+  border: 1px solid white;
+  height: 4vh;
+  font-size: 20px;
+  flex-wrap: wrap;
+  width: 30%;
+}
+.sect8 .welcome .formulaire .btns8 .btn8 {
+  font-size: 22px;
+  border-radius: 16px;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  width: 190px;
+  height: 50px;
+  color: white;
+  background-color: #cc1111;
+}
+.sect8 .welcome .formulaire .btns8 :hover {
+  background-color: rgba(235, 12, 12, 0.9333333333);
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
+@media (min-width: 766px) and (max-width: 900px) {
+  .sect8 {
+    width: 100vw;
+    height: 180vh;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .sect8 .table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sect8 .table .reserve {
+    color: #868184;
+    font-size: 24px;
+  }
+  .sect8 .table .bigtext {
+    font-family: amatico;
+    font-size: 50px;
+  }
+  .sect8 .table .bigtext span {
+    color: #cc1111;
+  }
+  .sect8 .welcome {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    background-color: #f7f7f7;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sect8 .welcome .imgsect8 {
+    width: 640px;
+    height: 490px;
+  }
+  .sect8 .welcome .imgsect8 img {
+    width: 100%;
+    height: 100%;
+  }
+  .sect8 .welcome .formulaire {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 83vw;
+    height: 80vh;
+    background-color: #f7f7f7;
+    gap: 28px;
+    margin-top: -29px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .sect8 .welcome .formulaire .input1 {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .sect8 .welcome .formulaire .input1 input {
+    border-radius: 1px;
+    border: 1px solid #979595;
+    height: 6vh;
+    font-size: 20px;
+    flex-wrap: wrap;
+    width: 40%;
+  }
+  .sect8 .welcome .formulaire .btns8 .btn8 {
+    font-size: 22px;
+    border-radius: 16px;
+    border: none;
+    width: 190px;
+    height: 50px;
+    color: white;
+    background-color: #cc1111;
+  }
+  .sect8 .welcome .formulaire .txtarea {
+    width: 526px;
+    font-size: 20px;
+    height: 130px;
+  }
+}
+@media (min-width: 381px) and (max-width: 426px) {
+  .sect8 {
+    width: 100vw;
+    height: 220vh;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .sect8 .table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sect8 .table .reserve {
+    color: #868184;
+    font-size: 24px;
+  }
+  .sect8 .table .bigtext {
+    font-family: amatico;
+    font-size: 40px;
+  }
+  .sect8 .table .bigtext span {
+    color: #cc1111;
+  }
+  .sect8 .welcome {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    background-color: #f7f7f7;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sect8 .welcome .imgsect8 {
+    width: 339px;
+    height: 300px;
+  }
+  .sect8 .welcome .imgsect8 img {
+    width: 100%;
+    height: 100%;
+  }
+  .sect8 .welcome .formulaire {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80vw;
+    height: 200vh;
+    background-color: #f7f7f7;
+    gap: 28px;
+    margin-top: -29px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .sect8 .welcome .formulaire .input1 {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .sect8 .welcome .formulaire .input1 input {
+    border-radius: 1px;
+    border: 1px solid #979595;
+    height: 6vh;
+    font-size: 15px;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  .sect8 .welcome .formulaire .btns8 .btn8 {
+    font-size: 17px;
+    border-radius: 16px;
+    border: none;
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color: #cc1111;
+  }
+  .sect8 .welcome .formulaire .txtarea {
+    width: 240px;
+    font-size: 15px;
+    height: 130px;
+  }
+}
+@media (min-width: 375px) and (max-width: 380px) {
+  .sect8 {
+    width: 100vw;
+    height: 220vh;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .sect8 .table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sect8 .table .p1 {
+    color: #868184;
+    font-size: 24px;
+  }
+  .sect8 .table .bigtext {
+    font-family: amatico;
+    font-size: 40px;
+  }
+  .sect8 .table .bigtext span {
+    color: #cc1111;
+  }
+  .sect8 .welcome {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    background-color: #f7f7f7;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sect8 .welcome .imgsect8 {
+    width: 300px;
+    height: 300px;
+  }
+  .sect8 .welcome .imgsect8 img {
+    width: 100%;
+    height: 100%;
+  }
+  .sect8 .welcome .formulaire {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80vw;
+    height: 200vh;
+    background-color: #f7f7f7;
+    gap: 28px;
+    margin-top: -29px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .sect8 .welcome .formulaire .input1 {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .sect8 .welcome .formulaire .input1 input {
+    border-radius: 1px;
+    border: 1px solid #979595;
+    height: 6vh;
+    font-size: 15px;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  .sect8 .welcome .formulaire .btns8 .btn8 {
+    font-size: 17px;
+    border-radius: 16px;
+    border: none;
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color: #cc1111;
+  }
+  .sect8 .welcome .formulaire .txtarea {
+    width: 240px;
+    font-size: 15px;
+    height: 130px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
