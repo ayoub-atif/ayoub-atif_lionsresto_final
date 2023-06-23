@@ -1,9 +1,39 @@
-.fifth_section {
+.section5 {
     height: fit-content;
 
     .menuTitle {
         h2 {
-            font-family: amatic-b;
+            font-family: amatico;
+        }span{
+            color: red;
         }
-    }
+}
+#starter-tab {
+    font-family: robotico;
+    
+
+}
+#starter-tab:hover{
+    background-color: red;
+}
+#breakfast-tab{
+    font-family: robotico;
+}
+#breakfast-tab:hover{
+    background-color: red;
+}
+#dinner-tab{
+    font-family: robotico;
+}
+#dinner-tab:hover{
+    background-color: red;
+}
+
+#lunch-tab{
+    font-family: robotico;
+}
+#lunch-tab:hover{
+    background-color: red;
+}
+// 
 }

@@ -1,12 +1,14 @@
 .sect8
 {
     width: 100vw;
-    height:80vh;
+    height:auto;
     background-color: white;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-bottom: 20px;
+    
 
     .table {
         display: flex;
@@ -39,7 +41,7 @@
             height: 490px;
             img{
                 width: 100%;
-                height: 100%;
+                height: 370px;
             }
         }
 

@@ -13,16 +13,17 @@
 
 <body>
     <header>
+        
         <div class="lionsresto">
             <nav>
                 <h2 class="logo">LionsResto.</h2>
                 <ul class="navlist">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Chefs</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#section-4"">Menu</a></li>
+                    <li><a href="#section-5">Events</a></li>
+                    <li><a href="#chefs">Chefs</a></li>
+                    <li><a href="#Gallery">Gallery</a></li>
                     <div class="dropdown">
                         <button onclick="toggleDropdown()" class="dropbtn">dropdown <i
                                 class="fa-solid fa-caret-down"></i></button>
@@ -40,9 +41,9 @@
         </div>
     </header>
 
-    <section class="home">
+    <section class="home" id="home">
 
-        <div class="home-slider">
+        <div class="home-slider" >
 
             <div class="wrapper">
 
@@ -67,8 +68,9 @@
 
 
     </section>
-    <section class="main">
-        <div class="all">
+    
+    <section class="main" id="About">
+        <div class="all" >
             <div class="content">
                 <h3>ABOUT US</h3>
                 <h1>LEARN MORE <span>ABOUT US</span></h1>
@@ -104,7 +106,7 @@
    
 <!--section3  -->
 <div class="section3">
-<div class="cntr_sect3  d-flex justify-content-between  align-items-center g-1 " >
+<div class="cntr_sect3   d-flex justify-content-between  align-items-center g-1">
     <div class="card m-1 " style="padding: 10px; width: 18rem; margin: 0% auto; border-radius: 0; background-color: #CE1211; ">
         
         <div class="card-body " style=" color: black; ">
@@ -145,8 +147,8 @@
 </div>
 
     <!-- section4 -->
-    <section class="section-4">
-        <div class="statistiques">
+    <section class="section-4" >
+        <div class="statistiques" >
             <div class="sta-num">
                 <h1>232</h1>
                 <p>client</p>
@@ -166,8 +168,8 @@
         </div>
     </section>
 <!-- sect5 -->
-<!--+ Tab list ?? -->
-<div id="fifth_section" class="fifth_section p-5">
+
+<div id="section5" class="section5 p-5">
 
     <div class="menuTitle text-center">
         <p>OUR MENU</p>
@@ -175,7 +177,7 @@
     </div>
 
 
-    <div class="tabList">
+    <div class="tabList" id="section-4">
         <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active text-chefRed" id="starter-tab" data-bs-toggle="tab"
@@ -425,7 +427,7 @@
     </div>
 </div>
       <!-- section6 -->
-<section class="sect6">
+<section class="sect6" id="section-5">
     <div class="events">
         <h3>EVENTS</h3>
         <h1>SHARE <span>YOUR MOMENTS IN OUR RESTO</span></h1>
@@ -448,7 +450,7 @@
 </section>
 
 
-<section class="sect7">
+<section class="sect7" id="chefs">
     <div class="ourchefs">
     <div class="chefs">
         <h4>chefs</h4>
@@ -509,10 +511,23 @@
         </div>
     </div>
 </section>
+<section class="sect9">
+    <div class="mover">
+        <p class="gallery">GALLERY</p>
+        <div class="ourgaalery">
+            <h1>CHECK <span>OUR GALLERY</span></h1>
+        </div>
+    </div>
+</section>
 
 
 
-
+<!-- arrow -->
+<div class="arrow">
+    <a href="#top">
+        <i class="fa-solid fa-arrow-up fa-2xl" style="color: #ffffff;"></i>
+    </a>
+</div>
 
     <script src="./public/js/app.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

@@ -12154,6 +12154,16 @@ i {
     justify-content: center;
   }
 }
+.arrow {
+  background-color: red;
+  border-radius: 50%;
+  position: fixed;
+  padding: 10px;
+  bottom: 10%;
+  right: 5%;
+  z-index: 121212;
+}
+
 .all {
   text-align: center;
 }
@@ -12426,11 +12436,38 @@ i {
     font-weight: bold;
   }
 }
-.fifth_section {
+.section5 {
   height: fit-content;
 }
-.fifth_section .menuTitle h2, .fifth_section .menuTitle .h2 {
-  font-family: amatic-b;
+.section5 .menuTitle h2, .section5 .menuTitle .h2 {
+  font-family: amatico;
+}
+.section5 .menuTitle span {
+  color: red;
+}
+.section5 #starter-tab {
+  font-family: robotico;
+}
+.section5 #starter-tab:hover {
+  background-color: red;
+}
+.section5 #breakfast-tab {
+  font-family: robotico;
+}
+.section5 #breakfast-tab:hover {
+  background-color: red;
+}
+.section5 #dinner-tab {
+  font-family: robotico;
+}
+.section5 #dinner-tab:hover {
+  background-color: red;
+}
+.section5 #lunch-tab {
+  font-family: robotico;
+}
+.section5 #lunch-tab:hover {
+  background-color: red;
 }
 
 .slider .carousel {
@@ -12502,12 +12539,13 @@ i {
 
 .sect8 {
   width: 100vw;
-  height: 80vh;
+  height: auto;
   background-color: white;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-bottom: 20px;
 }
 .sect8 .table {
   display: flex;
@@ -12539,7 +12577,7 @@ i {
 }
 .sect8 .welcome .imgsect8 img {
   width: 100%;
-  height: 100%;
+  height: 370px;
 }
 .sect8 .welcome .formulaire {
   display: flex;
@@ -12844,6 +12882,28 @@ i {
     font-size: 15px;
     height: 130px;
   }
+}
+.sect9 {
+  background-color: rgba(238, 238, 238, 0.9333333333);
+  width: 100%;
+}
+
+.sect9 h1, .sect9 .h1 {
+  font-family: amatico;
+  font-size: 60px;
+}
+
+.sect9 span {
+  color: red;
+}
+
+.sect9 p {
+  font-family: roboto;
+  font-size: 20px;
+}
+
+.mover {
+  text-align: center;
 }
 
 /*# sourceMappingURL=app.css.map */
