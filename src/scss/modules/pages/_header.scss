@@ -8,6 +8,9 @@
   .logo {
     font-family: Roboto;
   }
+  .menuBurger{
+    display: none;
+  }
   
   .navbar {
     height: 100vh;
@@ -64,8 +67,7 @@
 
   }
   .dropdown {
-    position: relative;
-    display: inline-block;
+    display: none;
   }
   
   .dropbtn {
@@ -83,22 +85,73 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
   
-  .dropdown-content a {
-    display: block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #333;
-  }
+  
   
   .show {
     display: block;
   }
+  .mod {
+    z-index: 22222;
+    pointer-events: visible;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+
+    .x {
+        float: right;
+        color: white;
+        background-color: black;
+        border: none;
+        padding: 10px;
+    }
+
+    .modContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+        width: 100%;
+
+        // To make the background darker when the modal shows
+        .forBg {
+            background-color: black;
+            opacity: 0.8;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 100%;
+            width: 100%;
+            z-index: -22;
+        }
+
+        iframe {
+            position: absolute;
+            z-index: 212121;
+        }
+    }
+}
 
 
     @media (min-width: 426px) and (max-width: 768px) {
       .navlist li {
           display: none;
       }
+      .menuBurger{
+        display: block;
+      }
+      .linksBurger{
+        position: absolute;
+        background-color: #f9f9f9;
+        
+        
+        
+      }
+      
   
       .cnx {
           display: none;
@@ -109,6 +162,7 @@
       .dropdown-content a {
           display: block;
       }
+      
   }
   
 
@@ -117,10 +171,22 @@
     .navlist{
         display: none;
   }
+  .menuBurger{
+    display: block;
+    float: right;
+  }
+  .linksBurger{
+    position: absolute;
+    background-color: #f9f9f9;
+    
+    
+  }
+  
   
   .logo {
     font-family: Roboto;
   }
+  
   
   .navbar {
 

@@ -1,0 +1,316 @@
+.sect10{
+    background-color: #eeee;
+     width: 100%;
+     
+ }
+ .sect10 h1{
+     font-family: amatico;
+     font-size: 60px;
+ }
+ .sect10 span{
+     color: red;
+ }
+ .sect10 p{
+     font-family: roboto;
+     font-size: 20px;
+ }
+ .location{
+     text-align: center;
+ }
+
+
+
+
+
+
+ xmaps{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    }
+    iframe{
+        width: 90%;
+        height: 350px;
+    }
+    .adress-parent{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        padding-top: 30px;
+    }
+    .kldm{
+        background-color: $back-grey;
+        width: 670px;
+        height: 140px;
+        display: flex;
+        padding: 35px;
+        align-items: center;
+        gap: 20px;
+        .b-gicone{
+
+            i{background-color: $red;
+            border-radius: 50%;
+            font-size: 30px;
+            padding: 15px;
+        }
+        }
+        h4{
+            padding-top: 10px;
+            color: $texto-grie;
+            font-weight: 700;
+        }
+        p{
+            color: $texto-grie;
+            font-weight: 400;
+        }
+
+    }
+@media (min-width : 375px) and (max-width : 426px) {
+        .section-9{
+            background-color: $back-grey;
+            width: 100%;
+            height: 550px;
+        }
+        .xmaps{
+        display: flex;
+        justify-content: center;
+        padding-top: 35px;
+        }
+        iframe{
+            width: 100%;
+            height: 350px;
+            padding: 15px;
+        }
+        .adress-parent{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 25px;
+            padding-top: 30px;
+            width: 100%;
+            padding: 15px;
+        }
+        .kldm{
+            background-color: $back-grey;
+            width: 100%;
+            height: 140px;
+            display: flex;
+            padding: 35px;
+            align-items: center;
+            gap: 20px;
+            .b-gicone{
+
+                i{background-color: $red;
+                border-radius: 50%;
+                font-size: 30px;
+                padding: 15px;
+            }
+            }
+            h4{
+                padding-top: 10px;
+                color: $texto-grie;
+                font-weight: 700;
+            }
+            p{
+                color: $texto-grie;
+                font-weight: 400;
+            }
+
+        }
+    }
+@media (min-width : 767px) and (max-width : 1025px) {
+        .section-9{
+            background-color: $back-grey;
+            width: 100%;
+            height: 550px;
+        }
+        .xmaps{
+        display: flex;
+        justify-content: center;
+        padding-top: 35px;
+        }
+        iframe{
+            width: 90%;
+            height: 350px;
+        }
+        .adress-parent{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding-top: 30px;
+        }
+        .kldm{
+            background-color: $back-grey;
+            width: 44%;
+            height: 140px;
+            display: flex;
+            padding: 35px;
+            align-items: center;
+            gap: 20px;
+            .b-gicone{
+
+                i{background-color: $red;
+                border-radius: 50%;
+                font-size: 30px;
+                padding: 15px;
+            }
+            }
+            h4{
+                padding-top: 10px;
+                color: $texto-grie;
+                font-weight: 700;
+            }
+            p{
+                color: $texto-grie;
+                font-weight: 400;
+            }
+
+        }
+    }
+.section-11 {
+    margin-top: 80px;
+
+}
+
+.contact-uss {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    input {
+        width: 675px;
+        height: 45px;
+        outline: none;
+        border: 1px solid $gray;
+    }
+}
+
+.subject {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+
+    input {
+        width: 1375px;
+        height: 45px;
+    }
+}
+
+.txt-msg {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+
+    textarea {
+        width: 1375px;
+    }
+}
+@media (min-width : 767px) and (max-width : 1025px) {
+    .section-11 {
+        margin-top: 80px;
+
+    }
+
+    .contact-uss {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-direction: column;
+        align-items: center;
+        .name-email{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            input {
+            width: 89%;
+            height: 45px;
+            outline: none;
+            border: 1px solid $gray;
+        }
+        }
+
+    }
+
+    .subject {
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+        width: 100%;
+        input {
+            width: 89%;
+            height: 45px;
+        }
+    }
+
+    .txt-msg {
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        textarea {
+            width: 1375px;
+            width: 89%;
+        }
+    }
+}
+@media (min-width : 375px) and (max-width : 426px) {
+    .section-11 {
+        margin-top: 80px;
+
+    }
+
+    .contact-uss {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-direction: column;
+        align-items: center;
+        .name-email{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            input {
+            width: 89%;
+            height: 45px;
+            outline: none;
+            border: 1px solid $gray;
+        }
+        }
+
+    }
+
+    .subject {
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+        width: 100%;
+        input {
+            width: 89%;
+            height: 45px;
+        }
+    }
+
+    .txt-msg {
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        textarea {
+            width: 1375px;
+            width: 89%;
+        }
+    }
+}
+.btn-send{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ margin-top: 15px;
+    
+
+}
+ 
+

@@ -18,12 +18,12 @@
             <nav>
                 <h2 class="logo">LionsResto.</h2>
                 <ul class="navlist">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#section-4"">Menu</a></li>
-                    <li><a href="#section-5">Events</a></li>
-                    <li><a href="#chefs">Chefs</a></li>
-                    <li><a href="#Gallery">Gallery</a></li>
+                    <li class=".menuItem"><a href="#home">Home</a></li>
+                    <li class=".menuItem"><a href="#About">About</a></li>
+                    <li class=".menuItem"><a href="#section-4"">Menu</a></li>
+                    <li class=".menuItem"><a href="#section-5">Events</a></li>
+                    <li class=".menuItem"><a href="#chefs">Chefs</a></li>
+                    <li class=".menuItem"><a href="#Gallery">Gallery</a></li>
                     <div class="dropdown">
                         <button onclick="toggleDropdown()" class="dropbtn">dropdown <i
                                 class="fa-solid fa-caret-down"></i></button>
@@ -37,10 +37,30 @@
                 </ul>
 
                 <div class="cnx"><button type="button">Conexion</button></div>
-            </nav>
+                <div class="menuBurger mx-md-3">
+                    <a href="#" id="logoBurger" class="nav-link">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <div class="linksBurger">
+                        <a class="navlinks nav-link" aria-current="page" href="#home">Home</a>
+                        <a class="navlinks nav-link" href="#About">About</a>
+                        <a class="navlinks nav-link" href="#section-4">Menu</a>
+                        <a class="navlinks nav-link" href="#section-5">Events</a>
+                        <a class="navlinks nav-link" href="#chefs">Chefs</a>
+                        <a class="navlinks nav-link" href="#Gallery">Gallery</a>
+                        <a class="navlinks nav-link" href="#">Drop Down</a>
+                        <a class="navlinks nav-link" href="#">Contact</a>
+                    </div>
+                </div>
         </div>
+    </nav>
+   
+</div>
+</div>
     </header>
 
+
+    
     <section class="home" id="home">
 
         <div class="home-slider" >
@@ -53,8 +73,11 @@
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure.<br>Lorem, ipsum dolor. Lorem,
                             ipsum.</p>
                         <div class="btns">
-                            <a href="" class="btn">book a Table</Table></a>
-                            <a href="" class="btn2"> <i class="fa-solid fa-play"></i> watch video</Table></a>
+                            <button>book a Table</button>
+                            <button class="btnOpen btn bg-transparent" id="videomain">
+                                <i class="fa-solid fa-circle-play text-danger"></i>
+                                Watch Video
+                            </button>
                         </div>
                     </div>
 
@@ -98,7 +121,7 @@
                     Odit, mollitia numquam,perspiciatis assumenda quae enim sint!</p>
                 <div class="frst-video">
                     <img class="image-clip" src="./public/img/about-2.jpg" alt="">
-                    <div class="icon-video"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="icon-video"><i id="videomain2" class= "btnOpen fa-solid fa-circle-play"></i></div>
                 </div>
             </div>
             </section>
@@ -520,6 +543,113 @@
     </div>
 </section>
 
+<section class="sect10">
+    <div class="location">
+        <p class="">CONTACT</p>
+        <div class="ourgaalery">
+            <h1>NEED HELP? <span>CONTACT US<span></h1>
+     </div>
+     <div class="xmaps"><iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.361465429854!2d-74.0083263845951!3d40.710058579332234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sma!4v1687437230478!5m2!1sen!2sma"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+<div>
+    <div class="adress-parent">
+        <div class="kldm">
+            <div class="b-gicone"><i class="fa-regular fa-map" style="color: white;"></i></div>
+            <div>
+                <h4>Our Address</h4>
+                <p>A ain sebaa,ain sebaa 20122</p>
+            </div>
+
+        </div>
+        <div class="kldm">
+            <div class="b-gicone"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></div>
+            <div>
+                <h4>Email us</h4>
+                <p>anonymos@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="adress-parent">
+        <div class="kldm">
+            <div class="b-gicone"><i class="fa-solid fa-phone" style="color: #ffffff;"></i></div>
+            <div>
+                <h4>Call Us</h4>
+                <p>+1 2641 65521 5787 53</p>
+            </div>
+
+        </div>
+        <div class="kldm">
+            <div class="b-gicone"><i class="fa-regular fa-clock" style="color: #ffffff;"></i></div>
+            <div>
+                <h4>Opening Hours</h4>
+                <p><b>Mon-sat:</b> 11AM-23PM;<b>Sunday:</b> closed</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</section>
+
+<section class="section-11">
+<div class="contact-uss">
+    <div class="name-email"><input type="text" placeholder="   Your Name"></div>
+    <div class="name-email"><input type="text" placeholder="   Your Email"></div>
+</div>
+<div class="subject"><input type="text" placeholder="   Subject"></div>
+<div class="txt-msg"><textarea name="" id="" cols="30" rows="10" placeholder="  message"></textarea></div>
+<div class="btn-send"><button>send a message</button></div>
+
+</section>
+
+
+
+<footer>
+    <div class="info-footer">
+        <div class="address-footer">
+            <div class="icone-address"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                <h1>Address</h1>
+            </div>
+            <div>
+                <p>A 108 Adam street, <br>New York,NY 535022</p>
+            </div>
+        </div>
+        <div class="address-footer">
+            <div class="icone-address"><i class="fa-solid fa-phone" style="color: #ffffff;"></i></i>
+                <h1>Reservation</h1>
+            </div>
+            <div>
+                <p><b>phone:</b> +1 7589 488 91</p>
+                <p><b>Email:</b> anonymos@gmail.com</p>
+            </div>
+        </div>
+        <div class="address-footer pe-md-5">
+            <div class="icone-address"><i class="fa-regular fa-clock" style="color: #ffffff;"></i>
+                <h1>Opening Hours</h1>
+            </div>
+            <div>
+                <p><b>Mon-sat:</b> 11AM-23PM; <br><b>Sunday:</b> closed</p>
+            </div>
+        </div>
+        <div class="address-footer pe-md-5">
+            <div class="icone-address">
+                <h1 class="pe-md-5">Follow Us</h1>
+            </div>
+            <div class="icone-follow"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
+    <div class="copy-r">
+        <p> &copy; copyright <b>LionsResto</b>.All Rights Reserved</p>
+    </div>
+</footer>
+
 
 
 <!-- arrow -->
@@ -528,6 +658,40 @@
         <i class="fa-solid fa-arrow-up fa-2xl" style="color: #ffffff;"></i>
     </a>
 </div>
+
+<!-- video1 btn -->
+
+
+
+
+<section class="d-none mod" id="videomain">
+<button class="closeMod x" id="videomain"> X </button>
+
+<div class="modContent" id="videomain">
+<div class="forBg"></div>
+<iframe class="ytVidFrame" id="videomain" width="560" height="315"
+src="https://www.youtube.com/embed/lBdnti4_UUg" allow="autoplay" title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen>
+</iframe>
+</div>
+</section>
+<section class="d-none mod" id="videomain2">
+    <button class="closeMod x" id="videomain2"> X </button>
+    
+    <div class="modContent" id="videomain2">
+    <div class="forBg"></div>
+    <iframe class="ytVidFrame" id="videomain2" width="560" height="315"
+    src="https://www.youtube.com/embed/CpjH9M2SYsk" allow="autoplay" title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+    </iframe>
+    </div>
+    </section>
+
+
 
     <script src="./public/js/app.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
